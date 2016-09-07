@@ -1,0 +1,33 @@
+#container{
+    position: relative;
+    overflow: hidden;
+    width: 1291px;
+    height: 670px;
+}
+.primary{
+    left: -150px;
+    width: 1570px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.parallelogram{
+    height: 670px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+
+.standar{
+    width: 870px;
+    background: #db4437;
+}
+.small{
+    width: 120px;
+    background: #FFF;
+}
+.middle{
+    -webkit-box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 10px -2px rgba(0,0,0,0.75);
+}

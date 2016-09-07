@@ -1,0 +1,23 @@
+#container{
+    display: block;
+    overflow: hidden;
+    width: 960px;
+    height: 300px;
+}
+
+.parallelogram{
+    display: block;
+    height: auto;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+     }
+
+.standar{
+    width: 320px;
+    background: green;
+}
+.small{
+    width: 120px;
+    background: blue;
+}
