@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Couple</title>
+</head>
+<body>
+    <script>
+    var tab = [];
+    var tableau= ['ronald','toto','diego','eva','ronald','toto','diego','eva'];
+        for(var i = 0; i<tableau.length ; i++){
+            /*var s = tableau[i].split().join();*/
+            if(tab.indexOf(tableau[i]) < 0){
+                console.log('On l inclu '+ tableau[i]);
+                tab.push(tableau[i]);
+                console.log(tab);
+            }
+            else{
+                console.log('Il y est déjà');
+            }
+
+        }
+    /*tableau multidirectionnel*/
+        /*var tableau= ['ronald','toto','diego','eva'];
+        var couple = [];
+            for(var i = 0; i < tableau.length;i++){
+                for(var k = 0 ; k < tableau.length; k++){
+                    if( tableau[i] !== tableau[k]){
+                        couple.push([tableau[i],tableau[k]]);
+                    }
+                }
+            }
+                    console.table(couple);*/
+    </script>
+</body>
+</html>
